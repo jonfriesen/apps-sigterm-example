@@ -10,3 +10,5 @@ This is a sample app that demonstrates on how to gracefully handle app shutdowns
 4. In a separate browser window, trigger an App Platform deploy for your app
 5. In the original window note the message saying the SIGTERM was caught and handled
 
+
+# Note: this example doesn't work on Kubernetes (App Platform) because the user traffic is diverted to the new instance before the sigterm is triggered.
